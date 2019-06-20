@@ -15,23 +15,35 @@ URLs → views → serializers → models
 # views
 
 from rest_framework.views import APIView
+
 class AuthorView(APIView):
+
 ...
+
 class ArticleView(APIView):
+
 ...
 
 # serializers
 
 from rest_framework import serializers
+
 class AuthorSerializer(serializers.Serializer):
+
 ...
+
 class ArticleSerializer(serializers.Serializer):
+
 ...
 
 # models
 
 from django.db import models
+
 class Author(models.Model):
+
 ...
+
 class Article(models.Model):
+
 ...
