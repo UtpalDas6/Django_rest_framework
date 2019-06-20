@@ -8,6 +8,7 @@ URLs → views → serializers → models
 
 ![get](get.png)
 ![post](post.png)
+
 /articles/<int:pk>/ -> To Handle Put and Delete requests.
 
 ![put](put.png)
