@@ -7,11 +7,13 @@ URLs → views → serializers → models
 /articles -> To Handle Get and Post requests.
 
 ![get](get.png)
+
 ![post](post.png)
 
 /articles/<int:pk>/ -> To Handle Put and Delete requests.
 
 ![put](put.png)
+
 ![delete](delete.png)
 
 /authors -> To Handle Get and Post requests.
