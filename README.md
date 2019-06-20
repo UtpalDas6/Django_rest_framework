@@ -37,6 +37,7 @@ class ArticleSerializer(serializers.Serializer):
 ...
 
 # models
+![model](drf.png)
 
 from django.db import models
 
