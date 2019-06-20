@@ -4,13 +4,19 @@ A simple DRF for basic CRUD operations
 URLs → views → serializers → models
 
 # URLS
+/articles -> To Handle Get and Post requests.
+
+![get](get.png)
+![post](post.png)
+/articles/<int:pk>/ -> To Handle Put and Delete requests.
+
+![put](put.png)
+![delete](delete.png)
+
 /authors -> To Handle Get and Post requests.
 
 /authors/<int:pk>/ -> To Handle Put and Delete requests.
 
-/articles -> To Handle Get and Post requests.
-
-/articles/<int:pk>/ -> To Handle Put and Delete requests.
 
 # views
 
